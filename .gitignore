@@ -1,0 +1,65 @@
+# =====================================
+# ENVIRONNEMENTS VIRTUELS
+# =====================================
+env/
+venv/
+.venv/
+ENV/
+
+# =====================================
+# PYTHON
+# =====================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+
+# =====================================
+# MODÈLES IA LOURDS (à télécharger séparément)
+# =====================================
+vosk-model-*/
+*.onnx
+*.onnx.json
+best.pt
+yolov8*.pt
+
+# =====================================
+# FICHIERS AUDIO TEMPORAIRES / DE TEST
+# =====================================
+*.wav
+*.mp3
+temp*.txt
+
+# =====================================
+# BIBLIOTHÈQUES TIERCES
+# =====================================
+PiJuice/
+
+# =====================================
+# CONFIGURATION SENSIBLE
+# =====================================
+.env
+secrets.json
+sms_config_local.py
+
+# =====================================
+# IDE / OS
+# =====================================
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# =====================================
+# LOGS
+# =====================================
+*.log
+
+# Configuration locale sensible
+contacts_local.py
+.env

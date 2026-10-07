@@ -1,0 +1,4 @@
+2026-06-02 11:21:05.737761 : 1 personne(s) détectée(s)
+2026-06-02 11:23:50.698874 : 1 personne(s) détectée(s)
+2026-06-02 11:24:16.124511 : 1 bouteille_plastique détecté(s)
+2026-06-02 11:24:27.932645 : 1 personne(s) détectée(s)
