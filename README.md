@@ -150,7 +150,7 @@ python sms.py          # SMS par commande vocale
 Le modèle YOLOv8n (`best.pt`, 6 Mo) entraîné sur notre dataset
 n'est pas versionné (trop volumineux pour Git).
 
-👉 [Télécharger best.pt](#) *(à remplacer par un lien Google Drive / Dropbox)*
+👉 **[Télécharger `best.pt` (Google Drive)](https://drive.google.com/file/d/1lFpWHF4P8xet8yVRrKSGu2IejlzXXrkK/view?usp=sharing)**
 
 ---
 
