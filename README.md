@@ -35,45 +35,45 @@ Le tout fonctionne **entièrement hors ligne** sur un **Raspberry Pi 4**.
 
 ## 🎬 Démonstrations vidéo
 
-### 🔍 Détection d'obstacles en temps réel
+> **Note** : les vidéos sont hébergées sur YouTube (non répertoriées) pour ne pas alourdir ce dépôt GitHub.
 
-<p align="center">
-  <a href="videos/Detection.mp4">
-    <img src="images/prototype1.jpeg" alt="Démo détection d'obstacles" width="600"/>
-  </a>
-  <br/>
-  <strong>▶ <a href="videos/Detection.mp4">Cliquez pour voir la vidéo complète</a></strong>
-  <br/>
-  <em>Détection YOLOv8n sur Raspberry Pi 4 avec alerte vocale par Piper.</em>
-</p>
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <a href="https://www.youtube.com/watch?v=tZGUIJz4NpE">
+        <img src="https://img.youtube.com/vi/tZGUIJz4NpE/hqdefault.jpg" alt="Démo détection" width="280"/>
+      </a>
+      <br/>
+      <strong>🔍 Détection d'obstacles</strong>
+      <br/>
+      <em>YOLOv8n en temps réel + alerte vocale Piper</em>
+    </td>
+    <td align="center" width="33%">
+      <a href="https://www.youtube.com/watch?v=42MDELCODeo">
+        <img src="https://img.youtube.com/vi/42MDELCODeo/hqdefault.jpg" alt="Démo lecture OCR" width="280"/>
+      </a>
+      <br/>
+      <strong>📖 Lecture de texte (OCR)</strong>
+      <br/>
+      <em>Tesseract OCR + synthèse vocale Piper</em>
+    </td>
+    <td align="center" width="33%">
+      <a href="https://www.youtube.com/watch?v=DO2Rk48FX-s">
+        <img src="https://img.youtube.com/vi/DO2Rk48FX-s/hqdefault.jpg" alt="Démo SMS vocal" width="280"/>
+      </a>
+      <br/>
+      <strong>📱 SMS par commande vocale</strong>
+      <br/>
+      <em>Vosk + module SIM7600G-H</em>
+    </td>
+  </tr>
+</table>
 
----
+👉 **[🔍 Détection d'obstacles en temps réel](https://www.youtube.com/watch?v=tZGUIJz4NpE)** — Détection YOLOv8n sur Raspberry Pi 4 avec alerte vocale par Piper.
 
-### 📖 Lecture de texte par OCR
+👉 **[📖 Lecture de texte par OCR](https://www.youtube.com/watch?v=42MDELCODeo)** — Lecture vocale de texte via Tesseract OCR + synthèse Piper.
 
-<p align="center">
-  <a href="videos/lecture.mp4">
-    <img src="images/prototype2.jpeg" alt="Démo lecture OCR" width="600"/>
-  </a>
-  <br/>
-  <strong>▶ <a href="videos/lecture.mp4">Cliquez pour voir la vidéo complète</a></strong>
-  <br/>
-  <em>Lecture vocale de texte via Tesseract OCR + synthèse Piper.</em>
-</p>
-
----
-
-### 📱 SMS par commande vocale
-
-<p align="center">
-  <a href="videos/sms.mp4">
-    <img src="images/prototype3.jpeg" alt="Démo SMS vocal" width="600"/>
-  </a>
-  <br/>
-  <strong>▶ <a href="videos/sms.mp4">Cliquez pour voir la vidéo complète</a></strong>
-  <br/>
-  <em>Envoi de SMS par commande vocale via le module SIM7600G-H.</em>
-</p>
+👉 **[📱 SMS par commande vocale](https://www.youtube.com/watch?v=DO2Rk48FX-s)** — Envoi de SMS par commande vocale via le module SIM7600G-H.
 
 ---
 
@@ -145,7 +145,6 @@ HopeVision/
 ├── annonces.txt             # Annonces vocales
 ├── sounds/                  # Sons du projet
 ├── images/                  # Photos du prototype
-├── videos/                  # Vidéos de démonstration
 └── capstone/                # Rapport et documents
 ```
 
