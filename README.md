@@ -1,11 +1,17 @@
 # 🦯 HopeVision — Lunettes intelligentes pour personnes malvoyantes
 
-> Projet de Fin d'Année (Capstone) — Bachelor of Science in Artificial Intelligence
+> Projet de Fin d'Année (Capstone) — Bachelor of Science in Artificial Intelligence  
 > African Development University (ADU) Niamey — Promotion 2026
 
 [![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://www.python.org/)
 [![YOLOv8](https://img.shields.io/badge/YOLOv8-Ultralytics-orange.svg)](https://docs.ultralytics.com/)
 [![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-4-red.svg)](https://www.raspberrypi.com/)
+
+<p align="center">
+  <img src="images/prototype1.jpeg" alt="Prototype HopeVision" width="600"/>
+  <br/>
+  <em>Prototype final — lunettes intelligentes avec caméra et module embarqué</em>
+</p>
 
 ---
 
@@ -24,6 +30,50 @@ Le dispositif combine :
 - **Communication GSM** (SIM7600G-H) pour les SMS d'urgence par commande vocale
 
 Le tout fonctionne **entièrement hors ligne** sur un **Raspberry Pi 4**.
+
+---
+
+## 🎬 Démonstrations vidéo
+
+### 🔍 Détection d'obstacles en temps réel
+
+<p align="center">
+  <a href="videos/Detection.mp4">
+    <img src="images/prototype1.jpeg" alt="Démo détection d'obstacles" width="600"/>
+  </a>
+  <br/>
+  <strong>▶ <a href="videos/Detection.mp4">Cliquez pour voir la vidéo complète</a></strong>
+  <br/>
+  <em>Détection YOLOv8n sur Raspberry Pi 4 avec alerte vocale par Piper.</em>
+</p>
+
+---
+
+### 📖 Lecture de texte par OCR
+
+<p align="center">
+  <a href="videos/lecture.mp4">
+    <img src="images/prototype2.jpeg" alt="Démo lecture OCR" width="600"/>
+  </a>
+  <br/>
+  <strong>▶ <a href="videos/lecture.mp4">Cliquez pour voir la vidéo complète</a></strong>
+  <br/>
+  <em>Lecture vocale de texte via Tesseract OCR + synthèse Piper.</em>
+</p>
+
+---
+
+### 📱 SMS par commande vocale
+
+<p align="center">
+  <a href="videos/sms.mp4">
+    <img src="images/prototype3.jpeg" alt="Démo SMS vocal" width="600"/>
+  </a>
+  <br/>
+  <strong>▶ <a href="videos/sms.mp4">Cliquez pour voir la vidéo complète</a></strong>
+  <br/>
+  <em>Envoi de SMS par commande vocale via le module SIM7600G-H.</em>
+</p>
 
 ---
 
@@ -94,6 +144,8 @@ HopeVision/
 ├── sms_config.py            # Configuration (variables d'env)
 ├── annonces.txt             # Annonces vocales
 ├── sounds/                  # Sons du projet
+├── images/                  # Photos du prototype
+├── videos/                  # Vidéos de démonstration
 └── capstone/                # Rapport et documents
 ```
 
@@ -150,7 +202,7 @@ python sms.py          # SMS par commande vocale
 Le modèle YOLOv8n (`best.pt`, 6 Mo) entraîné sur notre dataset
 n'est pas versionné (trop volumineux pour Git).
 
-👉 **[Télécharger `best.pt` (Google Drive)](https://drive.google.com/file/d/1lFpWHF4P8xet8yVRrKSGu2IejlzXXrkK/view?usp=sharing)**
+👉 **[Télécharger `best.pt` (Google Drive)](https://drive.google.com/uc?export=download&id=1lFpWHF4P8xet8yVRrKSGu2IejlzXXrkK)**
 
 ---
 
