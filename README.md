@@ -57,12 +57,12 @@ Le tout fonctionne **entièrement hors ligne** sur un **Raspberry Pi 4**.
   <tr>
     <td align="center" width="33%">
       <a href="https://www.youtube.com/watch?v=tZGUIJz4NpE">
-        <img src="https://img.youtube.com/vi/tZGUIJz4NpE/hqdefault.jpg" alt="Démo détection" width="280"/>
+        <img src="https://img.youtube.com/vi/tZGUIJz4NpE/hqdefault.jpg" alt="Démo détection + SMS" width="280"/>
       </a>
       <br/>
-      <strong>🔍 Détection + lecture de texte</strong>
+      <strong>🔍 Détection + SMS</strong>
       <br/>
-      <em>YOLOv8n + Tesseract OCR en même temps, avec alertes vocales Piper</em>
+      <em>YOLOv8n + SMS par commande vocale en même temps, avec alertes vocales Piper</em>
     </td>
     <td align="center" width="33%">
       <a href="https://www.youtube.com/watch?v=42MDELCODeo">
@@ -85,7 +85,7 @@ Le tout fonctionne **entièrement hors ligne** sur un **Raspberry Pi 4**.
   </tr>
 </table>
 
-👉 **[🔍 Détection d'obstacles et lecture de texte simultanées](https://www.youtube.com/watch?v=tZGUIJz4NpE)** — Détection YOLOv8n et lecture OCR Tesseract en même temps sur Raspberry Pi 4, avec alertes vocales par Piper.
+👉 **[🔍 Détection d'obstacles et SMS simultanés](https://www.youtube.com/watch?v=tZGUIJz4NpE)** — Détection YOLOv8n et envoi de SMS par commande vocale (Vosk + SIM7600G-H) en même temps sur Raspberry Pi 4, avec alertes vocales par Piper.
 
 👉 **[📖 Lecture de texte par OCR](https://www.youtube.com/watch?v=42MDELCODeo)** — Lecture vocale de texte via Tesseract OCR + synthèse Piper.
 
