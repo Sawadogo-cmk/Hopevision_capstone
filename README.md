@@ -7,11 +7,27 @@
 [![YOLOv8](https://img.shields.io/badge/YOLOv8-Ultralytics-orange.svg)](https://docs.ultralytics.com/)
 [![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-4-red.svg)](https://www.raspberrypi.com/)
 
-<p align="center">
-  <img src="images/prototype1.jpeg" alt="Prototype HopeVision" width="600"/>
-  <br/>
-  <em>Prototype final — lunettes intelligentes avec caméra et module embarqué</em>
-</p>
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <img src="images/prototype1.jpeg" alt="Prototype HopeVision — vue 1" width="280"/>
+      <br/>
+      <em>Prototype — vue 1</em>
+    </td>
+    <td align="center" width="33%">
+      <img src="images/prototype2.jpeg" alt="Prototype HopeVision — vue 2" width="280"/>
+      <br/>
+      <em>Prototype — vue 2</em>
+    </td>
+    <td align="center" width="33%">
+      <img src="images/prototype3.jpeg" alt="Prototype HopeVision — vue 3" width="280"/>
+      <br/>
+      <em>Prototype — vue 3</em>
+    </td>
+  </tr>
+</table>
+
+<p align="center"><em>Prototype final — lunettes intelligentes avec caméra et module embarqué</em></p>
 
 ---
 
@@ -44,9 +60,9 @@ Le tout fonctionne **entièrement hors ligne** sur un **Raspberry Pi 4**.
         <img src="https://img.youtube.com/vi/tZGUIJz4NpE/hqdefault.jpg" alt="Démo détection" width="280"/>
       </a>
       <br/>
-      <strong>🔍 Détection d'obstacles</strong>
+      <strong>🔍 Détection + lecture de texte</strong>
       <br/>
-      <em>YOLOv8n en temps réel + alerte vocale Piper</em>
+      <em>YOLOv8n + Tesseract OCR en même temps, avec alertes vocales Piper</em>
     </td>
     <td align="center" width="33%">
       <a href="https://www.youtube.com/watch?v=42MDELCODeo">
@@ -69,7 +85,7 @@ Le tout fonctionne **entièrement hors ligne** sur un **Raspberry Pi 4**.
   </tr>
 </table>
 
-👉 **[🔍 Détection d'obstacles en temps réel](https://www.youtube.com/watch?v=tZGUIJz4NpE)** — Détection YOLOv8n sur Raspberry Pi 4 avec alerte vocale par Piper.
+👉 **[🔍 Détection d'obstacles et lecture de texte simultanées](https://www.youtube.com/watch?v=tZGUIJz4NpE)** — Détection YOLOv8n et lecture OCR Tesseract en même temps sur Raspberry Pi 4, avec alertes vocales par Piper.
 
 👉 **[📖 Lecture de texte par OCR](https://www.youtube.com/watch?v=42MDELCODeo)** — Lecture vocale de texte via Tesseract OCR + synthèse Piper.
 
